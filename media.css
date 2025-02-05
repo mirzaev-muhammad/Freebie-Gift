@@ -1,0 +1,126 @@
+@media (max-width: 1200px) {
+    .text-box {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 1080px) {
+    .text-box {
+      width: 90%;
+    }
+  
+    .text-box-main-title {
+      font-size: 36px;
+    }
+  
+    .text-box-paragraph {
+      margin-top: 30px;
+    }
+  
+    .header-grid .text-box button {
+      margin-top: 20px;
+    }
+  
+    .blog-card-long {
+      position: relative;
+      height: 400px;
+      overflow: hidden;
+    }
+  
+    .blog-card-long-img {
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      z-index: 1;
+    }
+  
+    .blog-card-long-img img {
+      width: 100%;
+    }
+  
+    .blog-card-long-img img {
+      height: auto;
+      filter: brightness(30%);
+    }
+  
+    .blog-card-long-text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 2;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .burger-menu {
+      display: block;
+    }
+  
+    .nav-links {
+      background-color: var(--primary);
+      position: fixed;
+      flex-direction: column;
+      gap: 20px;
+      top: 0;
+      left: 0;
+      font-size: 24px;
+      width: 250px;
+      height: 100%;
+      z-index: 999;
+      padding: 50px 20px;
+      transform: translateX(-100%);
+    }
+    .header-grid {
+      grid-template-columns: 1fr;
+    }
+    .text-box-wrapper {
+      padding: 50px 0;
+    }
+    .box-img:nth-child(2) {
+      display: none;
+    }
+    .gift-cards .cards-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .blog .blog-grid {
+      grid-template-columns: 1fr;
+    }
+    .blog-card-long {
+      grid-column: 1/2;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .ready .container {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .ready-text {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      width: 100%;
+      padding: 0 20px;
+    }
+  
+    .ready-text {
+      flex-direction: column;
+    }
+    .blog-card-long-title {
+      font-size: 36px;
+      width: 100%;
+    }
+  
+    .footer-nav {
+      padding: 0;
+    }
+  }
